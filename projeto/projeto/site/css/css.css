@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#um{
+    width: 100%;
+    height: 1024px;
+    background: url('../img/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#primeiroH1{
+    text-align: center;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: bold;
+    position: fixed;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 800px;
+    font-size: 40px;
+}
+
+.botaoTransparente{
+    border: solid 3px #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 40px;
+    max-width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#linkUm{
+    position: fixed;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+#dois{
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.corpo{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: justify;
+    
+}
+
+.minhasImagem{
+    max-width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.linha{
+    display: flex;
+    padding: 20px;
+}
+
+.coluna3{
+    width: 33.333333%;
+}
+
+.colunaEspaço{
+    padding-right: 20px;
+}
